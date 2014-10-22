@@ -1,14 +1,15 @@
 .masthead {
   list-style-type: none;
-  background: #4b088a;
+  background: #846f8d;
   margin: 0;
   padding: 0;
 }
 
 .masthead li {
-  background: #4b088a;
+  background: #846f8d;
   float: left;
   text-align: center;
+  font-size: 250%;
   height: 150px;
   width: 100%;
 }
@@ -23,7 +24,7 @@
 .media-grid li {
   background: #482955;
   float: left;
-  height: 400px;
+  height: 500px;
   width: 40%;
 }
 
@@ -33,7 +34,12 @@
 
 .media-grid.media-grid-sm li {
   width: 20%;
-  height: 200px;
+  height: 250px;
+}
+
+.media-grid.media-grid-sm img {
+  width: 253px;
+  height: 250px;
 }
 
 .hero-unit {
@@ -46,8 +52,16 @@
 .hero-unit li {
   background: #380b61;
   float: left;
-  height: 400px;
+  text-align: center;
+  height: 600px;
   width: 100%;
+}
+
+.hero-unit img {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 50%;
+  height: 400px;
 }
 
 .about-me {
