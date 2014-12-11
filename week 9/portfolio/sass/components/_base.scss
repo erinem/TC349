@@ -1,0 +1,48 @@
+.masthead {
+  list-style-type: none;
+  background: #846f8d;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead li {
+  background: #846f8d;
+  float: left;
+  text-align: center;
+  font-size: 250%;
+  height: 150px;
+  width: 100%;
+}
+
+
+_textmate.scss
+
+.box {
+height: 100
+width:
+background:
+@include border-radius(25px);
+@include transition-property(background); //or all and can add more hover properties - i.e. changing width and height
+@include transition-duration(3s);
+
+&:hover{
+background:
+width: 200
+height
+}
+
+&:larger {
+width: 1000
+height
+}
+}
+
+can use this for portfolio to change image size, etc. when user hovers over it
+have square slide out to give more information about picture
+compas/w3c documentation for transition
+
+
+three add ons
+code reference
+use compass helper functions
+start by looking at examples under code reference
