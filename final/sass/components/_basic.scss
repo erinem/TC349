@@ -1,0 +1,27 @@
+$text-color: #E70000;
+$default-font: Arial, Helvetica, sans-serif;
+$default-size: large;
+
+body {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid #A4A4A4;
+  padding: 10px 10px 10px 10px;
+}
+
+p {
+  color: $text-color;
+  font-family: $default-font;
+  font-size: $default-size;
+  padding-left: 50px;
+  padding-right:50px;
+}
+
+.center {
+  padding-left: 170px;
+}
+
+.center_index {
+  padding-left: 200px;
+}

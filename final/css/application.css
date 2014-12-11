@@ -1,0 +1,75 @@
+/* line 5, ../sass/components/_basic.scss */
+body {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid #A4A4A4;
+  padding: 10px 10px 10px 10px;
+}
+
+/* line 13, ../sass/components/_basic.scss */
+p {
+  color: #e70000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* line 21, ../sass/components/_basic.scss */
+.center {
+  padding-left: 170px;
+}
+
+/* line 25, ../sass/components/_basic.scss */
+.center_index {
+  padding-left: 200px;
+}
+
+/* line 4, ../sass/components/_table.scss */
+ul.enlarge {
+  list-style-type: none;
+  margin-left: 0;
+  text-align: center;
+}
+/* line 8, ../sass/components/_table.scss */
+ul.enlarge li {
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  margin: 10px 40px 0 20px;
+}
+/* line 13, ../sass/components/_table.scss */
+ul.enlarge li:hover {
+  z-index: 50;
+  cursor: pointer;
+}
+/* line 16, ../sass/components/_table.scss */
+ul.enlarge li:hover span {
+  top: -300px;
+  left: -20px;
+}
+/* line 20, ../sass/components/_table.scss */
+ul.enlarge li:hover:nth-child(2) span {
+  left: -100px;
+}
+/* line 23, ../sass/components/_table.scss */
+ul.enlarge li:hover:nth-child(3) span {
+  left: -200px;
+}
+/* line 26, ../sass/components/_table.scss */
+ul.enlarge li:hover:nth-child(4) span {
+  left: -200px;
+}
+/* line 31, ../sass/components/_table.scss */
+ul.enlarge span {
+  position: absolute;
+  left: -9999px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 36, ../sass/components/_table.scss */
+ul.enlarge span img {
+  padding: 2px;
+  background: #1569C7;
+}
